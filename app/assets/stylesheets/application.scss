@@ -15,3 +15,169 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+
+// navbar部分
+
+.head-frame {
+  margin:0, auto ;
+  padding:0, 50px;
+
+}
+.head{
+  width:80%;
+  margin-left:10%;
+  display:table;
+}
+ .logo {
+   display:table-cell;
+   text-align: center;
+   width:30%;
+   vertical-align:middle;
+   img {
+     height:56px;
+   }
+ }
+ .head-tag{
+   display:table-cell;
+   width:70%;
+   vertical-align:middle;
+
+   li{
+     display:inline-block;
+     vertical-align:middle;
+     margin:0,auto;
+     margin-left:40px;
+   }
+ }
+
+ // 页脚部分
+
+ footer {
+   border-top: 1px solid #C1DE9C;
+   background-color: #431B50;
+   height:100px;
+   width:100%;
+   display:table;
+   .footer-part-one {
+     display:table-cell;
+     vertical-align: middle;
+     text-align: center;
+     span{
+       color:white;
+     }
+   }
+   .footer-part{
+     display:table-cell;
+     color:white;
+     vertical-align: middle;
+     text-align: center;
+     li{
+       display:inline-block;
+     }
+
+   }
+
+ }
+
+
+ // 轮播
+ .quote-left {
+   font-size: 80px;
+   position:relative;
+   bottom:200px;
+   left:80px;
+ }
+
+ .quote-right {
+   font-size: 80px;
+   position:relative;
+   bottom:200px;
+   right:80px;
+ }
+
+ .item {
+   height:400px;
+   img {
+     width:100%;
+   }
+ }
+
+// 轮播过渡
+.carousel-info{
+  h3{
+    position:relative;
+    right:200px;
+    bottom:150px;
+  }
+  a {
+    position:relative;
+    right:200px;
+    bottom:150px;
+
+  }
+}
+
+.transition-part{
+
+  background-color: #431B50;
+  height:50px;
+  width:100%;
+  text-align: center;
+  color:white;
+  p{
+    line-height: 50px;
+    span{
+      color:blue;
+      font-size: 25px;
+    }
+  }
+}
+ // 三大模块
+
+ .business-section{
+   display:table;
+   width:80%;
+   margin:auto !important;
+ }
+ .section-item-picture{
+   display:table-cell;
+   text-align: center;
+   width:50%;
+   height: 300px;
+   vertical-align: middle;
+ }
+ .section-item-word{
+   display:table-cell;
+   width:50%;
+   padding-left: 12%;
+   overflow:hidden;
+   vertical-align: middle;
+ }
+
+ // 公司信息
+
+ .company-info{
+   background-color:rgb(233,233,251);
+   height:250px;
+   width:100%;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   text-align: center;
+   .company-info-nav{
+     position:relative;
+     width:100%;
+     text-align: center;
+     ul{
+       list-style: none;
+       width:90%;
+       margin-left:5%;
+       li{
+         height:170px;
+         width:25%;
+         display:inline-block;
+         border-right: 2px solid white;
+       }
+     }
+   }
+ }

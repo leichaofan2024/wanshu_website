@@ -1,1 +1,125 @@
 
+
+<!-- 轮播图 -->
+
+<div id="myCarousel" class="carousel slide" style="background-color:blue;">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators" >
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fhphbuhpbvj30y80m8tds.jpg" alt="First slide">
+            <div class="carousel-caption carousel-info">
+              <h3> 专业团队，倾心打造，只为给你奉上最好的服务器 </h3>
+              <%= link_to("了解更多", "#",class: " btn btn-danger btn-large")%>
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://ws2.sinaimg.cn/large/006tNc79ly1fhphc074z3j31kw0pshdt.jpg" alt="Second slide">
+            <div class="carousel-caption carousel-info">
+              <h3> 虚拟仿真，引领潮流 </h3>
+              <%= link_to("了解更多", "#",class: " btn btn-danger btn-large")%>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fhphc4fu7fj30oq0egq7r.jpg" alt="Third slide">
+            <div class="carousel-caption carousel-info">
+              <h3> 铁路运维，数据管家 </h3>
+              <%= link_to("了解更多", "#",class: " btn btn-danger btn-large")%>
+            </div>
+        </div>
+
+        <a class="quote-left" href="#myCarousel"
+            data-slide="prev" style="text-decoration:none;"> <
+        </a>
+        <a class=" pull-right quote-right" href="#myCarousel"
+            data-slide="next" style="text-decoration:none;"> >
+        </a>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+
+</div>
+
+<div class="transition-part">
+  <p>选择<span>万数</span>，成就你我</p>
+</div>
+
+<!-- 三大模块 -->
+
+<div class="business-section">
+  <div class="section-item-word">
+    <h4>铁路系统服务器</h4>
+    <p>包含机架式和塔式2种机箱结构；采用Intel架构当前主流处理器系统，<br>
+      包括E3系列、E5系列双路、四路服务器，<br>满足入门级、 中小型企业、云计算等绝大多数客户的通用要求。
+    </p>
+    <a href="#">了解更多</a>
+  </div>
+  <div class="section-item-picture">
+    <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fhphbuhpbvj30y80m8tds.jpg" alt="" height="70%">
+  </div>
+</div>
+
+<div class="business-section" >
+  <div class="section-item-picture">
+    <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fhphbuhpbvj30y80m8tds.jpg" alt="" height="70%">
+  </div>
+  <div class="section-item-word">
+    <h4>接触网供电仿真系统</h4>
+    <p>包含机架式和塔式2种机箱结构；采用Intel架构当前主流处理器系统，<br>
+      包括E3系列、E5系列双路、四路服务器，<br>满足入门级、 中小型企业、云计算等绝大多数客户的通用要求。
+    </p>
+    <a href="#">了解更多</a>
+  </div>
+</div>
+
+<div class="business-section">
+  <div class="section-item-word">
+    <h4>动车数据无线传输</h4>
+    <p>包含机架式和塔式2种机箱结构；采用Intel架构当前主流处理器系统，<br>
+      包括E3系列、E5系列双路、四路服务器，<br>满足入门级、 中小型企业、云计算等绝大多数客户的通用要求。
+    </p>
+    <a href="#">了解更多</a>
+  </div>
+  <div class="section-item-picture">
+    <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fhphbuhpbvj30y80m8tds.jpg" alt="" height="70%">
+  </div>
+</div>
+
+<div class="company-info">
+
+  <nav class="company-info-nav">
+    <ul>
+      <li>
+        <h4>我们的主要产品和服务</h4>
+        <p>铁路服务器</p>
+        <p>工业大数据</p>
+        <p>接触网仿真</p>
+      </li>
+      <li>
+        <h4>支持</h4>
+        <p>联系技术支持部门</p>
+        <p>服务</p>
+        <p>培训计划</p>
+      </li>
+      <li>
+        <h4>公司</h4>
+        <p>关于万数</p>
+        <p>我们的团队</p>
+        <p>定位</p>
+      </li>
+    </ul>
+  </nav>
+
+</div>
+
+<script>
+$("#myCarousel").carousel({
+  interval: 4000
+});
+
+</script>
